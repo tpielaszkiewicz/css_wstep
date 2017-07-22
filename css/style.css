@@ -1,0 +1,37 @@
+
+
+/* selektor identyfikatora */
+#selektory p{
+    background-color: green;
+}
+/*selektor klasy*/
+.example p {
+    
+    font-size: 36 px;
+}
+
+/*selektor znacznika*/
+p{
+   font-size: 18 px;
+    color: blue;
+    background-color: yellow;
+    
+}
+
+/*selektor wspolny*/
+h1, 
+h2, 
+h3 {
+    color:red;
+}
+
+
+/*bezposredni potomek*/
+.direct > p{
+    background-color: gray;
+}
+
+/*rodzenstwo*/
+.child ul + li{
+    font-size: 28 px;
+}
