@@ -31,7 +31,16 @@ h3 {
     background-color: gray;
 }
 
-/*rodzenstwo*/
-.child ul + li{
-    font-size: 28 px;
+.wykluczajacy p:not(.not){
+    background-color: 40px;
+    
+}
+/* bezposrednie rodzenstwo*/
+h2 + h3{
+    font-size: 36px;
+}
+
+/* selektor rodzenstwa*/
+.rodzenstwo h2 ~ h3{
+    font-size: 36px;
 }
