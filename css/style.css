@@ -32,15 +32,17 @@ h3 {
 }
 
 .wykluczajacy p:not(.not){
-    background-color: 40px;
+    background-color: pink;
     
 }
 /* bezposrednie rodzenstwo*/
-h2 + h3{
-    font-size: 36px;
+.bezprodzenstwo h2 + h3{
+    font-size: 46px;
+    background-color: orange;
 }
 
 /* selektor rodzenstwa*/
 .rodzenstwo h2 ~ h3{
     font-size: 36px;
+    background-color: blue;
 }
